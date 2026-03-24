@@ -1,4 +1,4 @@
-# Dev Handbook
+# The Dev Chest
 
 A curated collection of Markdown notes including shortcuts, commands, scripts, and useful prompts for everyday development.
 
