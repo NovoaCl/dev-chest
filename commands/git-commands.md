@@ -73,7 +73,7 @@ git push
 
 ## How to delete a commit
 
-==Nota: Los archivos relacionados al commit serán eliminados del repositorio local y remoto.==
+`Nota: Los archivos relacionados al commit serán eliminados del repositorio local y remoto.`
 
 1. Ejecutar `git rebase -i <repositorio-anterior-al-que-se-desea-eliminar>`
 2. Se abrirá una interfaz Vim, cambiar los `pick` por `drop` de los commits a eliminar.
