@@ -43,10 +43,40 @@
 
 ## Others
 
-| Description                                          |                Command                 |
-| ---------------------------------------------------- | :------------------------------------: |
-| Establece o reescribe el usuario.                    | `git config --global user.name "name"` |
-| Muestra el usuario.                                  |    `git config --global user.name`     |
-| Establece o reescribe el email.                    | `git config --global user.email "email"` |
-| Muestra el email.                                  |    `git config --global user.email`     |
+| Description                       |                 Command                  |
+| --------------------------------- | :--------------------------------------: |
+| Establece o reescribe el usuario. |  `git config --global user.name "name"`  |
+| Muestra el usuario.               |     `git config --global user.name`      |
+| Establece o reescribe el email.   | `git config --global user.email "email"` |
+| Muestra el email.                 |     `git config --global user.email`     |
+
+---
+
+## How to set up a new local repository:
+
+```git
+cd ruta/del/repositorio
+git init
+git add .
+git commit -m "Inicial commit: de algo"
+git branch -M master
+git remote add origin <link-repo>
+git push origin main
+```
+## How to upload a repository:
+
+```git
+git add .
+git commit -m "Commit message"
+git push
+```
+
+## How to delete a commit
+
+==Nota: Los archivos relacionados al commit serán eliminados del repositorio local y remoto.==
+
+1. Ejecutar `git rebase -i <repositorio-anterior-al-que-se-desea-eliminar>`
+2. Se abrirá una interfaz Vim, cambiar los `pick` por `drop` de los commits a eliminar.
+3. Presionar `Esc` y teclear `:wq`, precionar `Enter` para guardar y salir.
+4. Ejecutar `git push origin master --force`
 
