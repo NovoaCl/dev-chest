@@ -8,4 +8,4 @@
 | Crea una carpeta nueva.                     |              `mkdir nombre-carpeta`              |
 | Limpia la consola.                          |                      `cls`                       |
 | Mueve un archivo a otro directorio.         | `move "directorio-archivo" "directorio-destino"` |
-
+| Elimina un directorio                       |                `del directorio"`                 |

@@ -64,4 +64,4 @@ eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 
 ### Instalar NeoVim
 
-
+brew install neovim
