@@ -8,11 +8,11 @@ A curated collection of Markdown notes including shortcuts, commands, scripts, a
 
 This repository serves as a personal knowledge base where I store and organize:
 
-* Frequently used commands
-* Keyboard shortcuts
-* Useful scripts
-* Reusable prompts
-* Notes and references
+- Frequently used commands
+- Keyboard shortcuts
+- Useful scripts
+- Reusable prompts
+- Notes and references
 
 Everything is written in Markdown for simplicity, readability, and portability.
 
@@ -21,25 +21,50 @@ Everything is written in Markdown for simplicity, readability, and portability.
 ## Structure
 
 ```
-.
-├── commands/       # CLI commands and terminal tricks
-├── shortcuts/      # Keyboard shortcuts by tool or OS
-├── scripts/        # Reusable scripts (bash, python, etc.)
-├── prompts/        # Prompt engineering and templates
-├── notes/          # General dev notes and references
-└── README.md
+dev-chest/
+├── README.md
+├── SUMMARY.md
+├── commands/                       # CLI commands and terminal tricks
+│   ├── angular-commands.md
+│   ├── cibersegurity-commands.md
+│   ├── docker-commands.md
+│   ├── format-commands.md
+│   ├── git-commands.md
+│   ├── linux-commands.md
+│   ├── sql-commands.md
+│   ├── vim-commands.md
+│   ├── vscode-commands.md
+│   └── windows-commands.md
+├── notes/                          # General dev notes and references
+│   ├── java/
+│   │   └── java-notes.md
+│   ├── markdown/
+│   │   └── markdown-cheat-sheet.md
+│   ├── spring/
+│   │   ├── annotations-notes.md
+│   │   └── dependencies-notes.md
+│   └── vim/
+│       └── vim-notes.md
+├── prompts/                        # Prompt engineering and templates
+│   ├── generate-commands/
+│   └── generate-concepts/
+├── scripts/                         # Reusable scripts (bash, python, etc.)
+└── shortcuts/                       # Keyboard shortcuts by tool or OS
+    ├── markdown-shortcuts.md
+    ├── system-shortcuts.md
+    └── vscode-shortcuts.md
 ```
 
 ---
 
-##  Purpose
+## Purpose
 
 The goal of this repo is to:
 
-* Centralize useful development knowledge
-* Improve productivity and workflow efficiency
-* Build a long-term, searchable “second brain”
-* Share useful resources with others
+- Centralize useful development knowledge
+- Improve productivity and workflow efficiency
+- Build a long-term, searchable “second brain”
+- Share useful resources with others
 
 ---
 

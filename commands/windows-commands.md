@@ -2,7 +2,7 @@
 
 ### 1. File System Navigation
 
-*Commands to move through folders and display contents.*
+_Commands to move through folders and display contents._
 
 | Description                 | Commands                                      |
 | --------------------------- | --------------------------------------------- |
@@ -16,7 +16,7 @@
 
 ### 2. File and Directory Management
 
-*Commands to create, copy, move, rename, or delete files and directories.*
+_Commands to create, copy, move, rename, or delete files and directories._
 
 | Description               | Commands                                                                                 |
 | ------------------------- | ---------------------------------------------------------------------------------------- |
@@ -31,7 +31,7 @@
 
 ### 3. Processes and Performance
 
-*Monitor and manage running processes.*
+_Monitor and manage running processes._
 
 | Description             | Commands                                                                        |
 | ----------------------- | ------------------------------------------------------------------------------- |
@@ -44,7 +44,7 @@
 
 ### 4. Networking
 
-*Commands to check and manage network configurations.*
+_Commands to check and manage network configurations._
 
 | Description                  | Commands                                                   |
 | ---------------------------- | ---------------------------------------------------------- |
@@ -58,7 +58,7 @@
 
 ### 5. Users and Permissions
 
-*Commands to manage user accounts and permissions.*
+_Commands to manage user accounts and permissions._
 
 | Description         | Commands                                                                                                                                                           |
 | ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -71,7 +71,7 @@
 
 ### 6. System Information
 
-*Commands to retrieve detailed system data.*
+_Commands to retrieve detailed system data._
 
 | Description             | Commands                                                  |
 | ----------------------- | --------------------------------------------------------- |
@@ -83,7 +83,7 @@
 
 ### 7. Disk Management
 
-*Commands for disks, partitions, and file system checks.*
+_Commands for disks, partitions, and file system checks._
 
 | Description         | Commands                                                          |
 | ------------------- | ----------------------------------------------------------------- |
@@ -96,7 +96,7 @@
 
 ### 8. PowerShell Core Commands
 
-*Key commands for daily administrative tasks in PowerShell.*
+_Key commands for daily administrative tasks in PowerShell._
 
 | Description             | Commands                           |
 | ----------------------- | ---------------------------------- |
@@ -110,7 +110,7 @@
 
 ### 9. System Administration
 
-*Commands for managing services and scheduled tasks.*
+_Commands for managing services and scheduled tasks._
 
 | Description             | Commands                                                                |
 | ----------------------- | ----------------------------------------------------------------------- |
@@ -124,7 +124,7 @@
 
 ### 10. Advanced Utilities
 
-*Advanced commands and troubleshooting tools.*
+_Advanced commands and troubleshooting tools._
 
 | Description                   | Commands                                                                        |                                        |
 | ----------------------------- | ------------------------------------------------------------------------------- | -------------------------------------- |
@@ -140,7 +140,7 @@
 
 ### 1. Navegación del Sistema de Archivos
 
-*Comandos para moverse por carpetas y mostrar contenido.*
+_Comandos para moverse por carpetas y mostrar contenido._
 
 | Descripción                      | Comandos                                      |
 | -------------------------------- | --------------------------------------------- |
@@ -154,7 +154,7 @@
 
 ### 2. Gestión de Archivos y Directorios
 
-*Comandos para crear, copiar, mover, renombrar o eliminar archivos y carpetas.*
+_Comandos para crear, copiar, mover, renombrar o eliminar archivos y carpetas._
 
 | Descripción                 | Comandos                                                                         |
 | --------------------------- | -------------------------------------------------------------------------------- |
@@ -169,7 +169,7 @@
 
 ### 3. Procesos y Rendimiento
 
-*Monitorear y gestionar procesos en ejecución.*
+_Monitorear y gestionar procesos en ejecución._
 
 | Descripción                  | Comandos                                                                        |
 | ---------------------------- | ------------------------------------------------------------------------------- |
@@ -182,7 +182,7 @@
 
 ### 4. Redes
 
-*Comandos para revisar y administrar configuración de red.*
+_Comandos para revisar y administrar configuración de red._
 
 | Descripción                | Comandos                                                   |
 | -------------------------- | ---------------------------------------------------------- |
@@ -196,7 +196,7 @@
 
 ### 5. Usuarios y Permisos
 
-*Comandos para gestionar cuentas de usuario y permisos.*
+_Comandos para gestionar cuentas de usuario y permisos._
 
 | Descripción               | Comandos                                                                                                                                                             |
 | ------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -209,7 +209,7 @@
 
 ### 6. Información del Sistema
 
-*Comandos para obtener información detallada del sistema.*
+_Comandos para obtener información detallada del sistema._
 
 | Descripción                       | Comandos                                                  |
 | --------------------------------- | --------------------------------------------------------- |
@@ -221,7 +221,7 @@
 
 ### 7. Gestión de Discos
 
-*Comandos para discos, particiones y revisión de sistema de archivos.*
+_Comandos para discos, particiones y revisión de sistema de archivos._
 
 | Descripción               | Comandos                                                          |
 | ------------------------- | ----------------------------------------------------------------- |
@@ -268,4 +268,8 @@
 
 ---
 
+### 11. Others
 
+| Descripción                         | Comandos                    |
+| ----------------------------------- | --------------------------- |
+| Genera un arbol dentro del archivo. | `tree /F /A > repo_tree.md` |
