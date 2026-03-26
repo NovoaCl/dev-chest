@@ -9,3 +9,4 @@
 | Limpia la consola.                          |                      `cls`                       |
 | Mueve un archivo a otro directorio.         | `move "directorio-archivo" "directorio-destino"` |
 | Elimina un directorio                       |                `del directorio"`                 |
+| Crea un archivo nuevo                       |            `echo type null > file.md`            |
