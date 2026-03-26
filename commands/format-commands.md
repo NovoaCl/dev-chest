@@ -1,4 +1,4 @@
-# Formato de usb:
+# Format of USB:
 
 1. diskpart
 2. list disk
@@ -10,7 +10,7 @@
 8. format fs=fat32 quick
 9. exit
 
-# Formato para instalar OS en disco duro:
+# Format to install an OS hard disk:
 
 0. Shift + F10: open CMD.
 1. diskpart
